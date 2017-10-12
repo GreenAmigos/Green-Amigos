@@ -1,6 +1,6 @@
 angular.module('myApp', []).controller('clientsCtrl', function($scope) {
-$scope.total = 16987.514;
-$scope.trees = 288;
+$scope.total = 17442.514;
+$scope.trees = 296;
 $scope.quotations = [ { key : 'Duplex', value : '7.5' },
                       { key : 'A4 Paper', value : '8' },
                       { key : 'Books', value : '8'}, 
@@ -377,6 +377,22 @@ $scope.clients = [{
             value2: '8.068 kg',
             value3: '18.200 kg',
             value4: '181.4 kg',
+            value5: '',
+            value6: ''
+        },{
+            location: 'Allahabad',
+            title: 'Unik Bazar',
+            img: 'unik-bazar',
+            key1: 'Paper : ',
+            key2: 'Polythene : ',
+            key3: '',
+            key4: '',
+            key5: '',
+            key6: '',
+            value1: '409.3 kg',
+            value2: '45.7 kg',
+            value3: '',
+            value4: '',
             value5: '',
             value6: ''
         },{
