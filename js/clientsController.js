@@ -1,14 +1,14 @@
 angular.module('myApp', []).controller('clientsCtrl', function($scope) {
 $scope.total = 17442.514;
 $scope.trees = 296;
-$scope.quotations = [ { key : 'Duplex', value : '7.5' },
-                      { key : 'A4 Paper', value : '8' },
-                      { key : 'Books', value : '8'}, 
-                      { key : 'Folding Cartons', value : '8'}, 
-                      { key : 'White Paper Copies', value : '8.5'}, 
-                      { key : 'Old Corrugated Containers (Cartons)', value : '10'}, 
-                      { key : 'Newsprint', value : '10' },
-                      { key : 'Polythene', value : '22' } ];
+$scope.quotations = [ { key : 'Duplex', value : '' },
+                      { key : 'A4 Paper', value : '' },
+                      { key : 'Books', value : ''}, 
+                      { key : 'Folding Cartons', value : ''}, 
+                      { key : 'White Paper Copies', value : ''}, 
+                      { key : 'Old Corrugated Containers (Cartons)', value : ''}, 
+                      { key : 'Newsprint', value : '' },
+                      { key : 'Polythene', value : '' } ];
 
 $scope.clients = [{
             location: 'Raymonds, Civil Lines, Allahabad',
