@@ -507,7 +507,23 @@ $scope.clients = [{
             value4: '',
             value5: '',
             value6: ''
-        },{
+                  },{
+            location: 'Allahabad',
+            title: 'Nav Jyoti Hospital',
+            img: 'navjyoti',
+            key1: 'Paper : ',
+            key2: 'Glucose Bottles : ',
+            key3: '',
+            key4: '',
+            key5: '',
+            key6: '',
+            value1: '400 kg',
+            value2: '138 kg',
+            value3: '',
+            value4: '',
+            value5: '',
+            value6: ''
+          },{
             location: 'Allahabad',
             title: 'Shri Ram departmental stores',
             img: 'shri_ram',
